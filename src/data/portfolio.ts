@@ -85,7 +85,7 @@ export const PORTFOLIO_DATA = {
       title: "CodeQuest",
       description: "Build a 1v1 Competitive Programming Platform with real-time code execution and ranking system.",
       github: "https://github.com/ojasvagr123/code-quest",
-      demo: "https://your-demo-link.com",
+      demo: "https://code-quest-cwxa.vercel.app/",
       image: "/projects/project1.png"
     },
     {
