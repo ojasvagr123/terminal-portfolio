@@ -13,7 +13,7 @@ export const portfolio = {
     linkedin: "https://www.linkedin.com/in/ojasvagrawal/",
     leetcode: "https://leetcode.com/ojasv_agr123/",
     resume: "/resume/Ojasv-Agrawal-Resume.pdf",
-    photo: "/profile/Screenshot 2026-11-24 205357.png",
+    photo: "/profile/ojasv-agrawal.png",
   },
   metrics: [
     { value: "9.36", label: "CGPA at SGITS" },
@@ -74,8 +74,8 @@ export const portfolio = {
       location: "Pune",
       period: "May 2026 - Jul 2026",
       summary:
-        "Designed and built scalable financial messaging systems, automated cryptographic security services, and streamlined deployment pipelines. Leveraged AI tooling to build developer productivity assistants that provide contextual codebase guidance.",
-      tags: ["Java", "ISO 8583", "Bouncy CastleB", "Jenkins", "MCP"],
+        "Contributed to enterprise software engineering initiatives focused on scalable backend systems, secure automation, CI/CD workflows, and developer productivity tools. Collaborated within a large engineering team to improve maintainability, reliability, and delivery efficiency.",
+      tags: ["Java", "Backend systems", "CI/CD", "Developer tools"],
     },
     {
       role: "Full-stack Developer Intern",
