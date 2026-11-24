@@ -74,8 +74,8 @@ export const portfolio = {
       location: "Pune",
       period: "May 2026 - Jul 2026",
       summary:
-        "Built configuration-first financial messaging infrastructure, a Java cryptographic automation platform using Bouncy Castle, and CI/CD-ready deployment workflows. Also created GitHub Copilot agents that delivered contextual codebase explanations through an MCP-based walkthrough agent.",
-      tags: ["Java", "ISO 8583", "Bouncy Castle", "Jenkins", "MCP"],
+        "Designed and built scalable financial messaging systems, automated cryptographic security services, and streamlined deployment pipelines. Leveraged AI tooling to build developer productivity assistants that provide contextual codebase guidance.",
+      tags: ["Java", "ISO 8583", "Bouncy CastleB", "Jenkins", "MCP"],
     },
     {
       role: "Full-stack Developer Intern",
