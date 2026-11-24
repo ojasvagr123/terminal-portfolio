@@ -1,136 +1,156 @@
-export const PORTFOLIO_DATA = {
-  about: {
+export const portfolio = {
+  profile: {
     name: "Ojasv Agrawal",
-    title: "B.Tech Student | Developer | Creative Thinker",
+    shortName: "OA",
+    eyebrow: "Final-year B.Tech IT student · SGITS Indore",
+    headline: "Software engineer building reliable products across web, AI and security.",
     intro:
-      "I build useful projects, enjoy learning new technologies, and love combining logic with creativity.",
-    education: {
-      degree: "B.Tech in Information Technology",
-      college: "Shri G.S. Institute of Technology and Science, Indore",
-      year: "3rd Year",
-    },
-    hobbies: [
-      "Painting",
-      "Reading",
-      "Building projects",
-      "Learning new tech"
-    ],
-    socials: {
-      github: "https://github.com/ojasvagr123",
-      linkedin: "https://www.linkedin.com/in/ojasvagrawal/",
-      instagram: "https://www.instagram.com/ojasv._28/",
-      email: "ojasvagrawal2807@gmail.com"
-    },
+      "I turn complex technical problems into useful, dependable software - from financial messaging systems and AI research to full-stack platforms used in the real world.",
+    location: "Indore, India",
+    email: "ojasvagrawal2807@gmail.com",
+    phone: "+91 88278 12807",
+    github: "https://github.com/ojasvagr123",
+    linkedin: "https://www.linkedin.com/in/ojasvagrawal/",
+    leetcode: "https://leetcode.com/ojasv_agr123/",
+    resume: "/resume/Ojasv-Agrawal-Resume.pdf",
     photo: "/profile/profile-photo.jpg",
-    resume: "/resume/resume.pdf",
-    leetcode: {
-        username: "ojasv_agr123",
-        profile: "https://leetcode.com/ojasv_agr123/",
-        solved: "600+",
-        badge: "Knight"
-    }
   },
-
-  experiences: {
-    internships: [
-        {
-        title: "Full Stack Developer Intern",
-        organization: "Vichranshala Lab, IIT Ropar",
-        duration: "Jan 2026 - Present",
-        description:
-            "Currently pursuing a technical internship at IIT Ropar, contributing to full-stack web development projects and building deployed MERN stack applications using MongoDB, Express.js, React, and Node.js."
-        },
-        {
-        title: "Research Intern",
-        organization: "MANIT Bhopal",
-        duration: "Jun 2025",
-        description:
-            "Conducted research on stress detection using EEG & EDAsignals (UNIVERSE dataset); built XAI-based deep learning models achieving 84.5% accuracy"
-        },
-        {
-        title: "Full Stack Developer Intern",
-        organization: "Ministry Of Technical Education, Govt. of Madhya Pradesh",
-        duration: "Apr 2025 - May 2025",
-        description:
-            "Developed a scalable backend system using PostgreSQL, Prisma ORM, and TypeScript with strong transactional integrity and real-time WebSocket integration."
-        }
-    ],
-    pors: [
-        {
-        title: "Central Placement Coordinator",
-        organization: "Training and Placement Cell, SGITS",
-        duration: "Jul 2024 - Present",
-        description:
-            "Coordinated with recruiters and students to manage campus drives, PPTs, and interviews for smooth placement logistics. "
-        },
-        {
-        title: "Technical Head",
-        organization: "Prashikshan AI",
-        duration: "Jan 2026 - Present",
-        description:
-            "Building student focused AI solutions."
-        },
-        {
-        title: "Coordinator",
-        organization: "#Include, SGITS",
-        duration: "Sep 2024 - Present",
-        description:
-            "Coordinated IT Department tech club events, successfully executing TechYam at Aayam 2025 with strong participation"
-        }
-    ]
-    },
-
+  metrics: [
+    { value: "9.36", label: "CGPA at SGITS" },
+    { value: "600+", label: "LeetCode problems" },
+    { value: "1959", label: "Peak contest rating" },
+    { value: "4", label: "Live products" },
+  ],
   projects: [
     {
       title: "CodeQuest",
-      description: "Build a 1v1 Competitive Programming Platform with real-time code execution and ranking system.",
+      eyebrow: "Competitive programming",
+      description:
+        "A real-time 1v1 competitive programming platform with live code execution, head-to-head challenges and a ranking system.",
+      stack: ["React", "Node.js", "WebSockets", "Code execution"],
       github: "https://github.com/ojasvagr123/code-quest",
       demo: "https://code-quest-cwxa.vercel.app/",
-      image: "/projects/project1.png"
+      image: "/projects/project1.png",
+      theme: "cyan",
     },
     {
-      title: "Ahilya Rakshasutra",
-      description: "Designed and hosted a Cowrie honeypot on AWS EC2 to track attacker behavior, and integrated XGBoost and LightGBM models achieving up to 99% accuracy in scam/phishing detection, malware APK classification, and deepfake recognition.",
+      title: "Ahilya RakshaSutra",
+      eyebrow: "Cybersecurity · AI/ML",
+      description:
+        "A citywide cyber-safety platform for reporting scams. It combines a Cowrie honeypot on AWS EC2 with XGBoost and LightGBM models that reached up to 99% accuracy across phishing, malware and deepfake detection tasks.",
+      stack: ["FastAPI", "React", "AWS EC2", "XGBoost", "LightGBM"],
       github: "https://github.com/ojasvagr123/ahilya",
       demo: "https://koraview-frontend.vercel.app/",
-      image: "/projects/project2.png"
+      image: "/projects/project2.png",
+      theme: "orange",
     },
     {
-      title: "Studify",
-      description: "Developed a full-stack academic platform with semester-wise resources and career prep modules (Placements, GATE) using Spring Boot and React..",
+      title: "StudiFy",
+      eyebrow: "Full-stack education platform",
+      description:
+        "A secure academic platform with semester resources, placement and GATE preparation, role-based access, modular dashboards and peer discussion with file sharing.",
+      stack: ["Spring Boot", "React", "PostgreSQL", "JWT", "Zustand"],
       github: "https://github.com/ojasvagr123/Student-Study-Portal",
       demo: "https://student-study-portal-frontend.vercel.app/",
-      image: "/projects/project3.png"
+      image: "/projects/project3.png",
+      theme: "indigo",
     },
     {
-      title: "Multi-Model Classification System",
-      description: "Developed a multi-modal classfication for various datsets.",
+      title: "Multi-Model Classification Lab",
+      eyebrow: "Applied machine learning",
+      description:
+        "An interactive Streamlit workspace for experimenting with prediction and classification tasks across structured data, images and audio.",
+      stack: ["Python", "Streamlit", "scikit-learn", "Computer vision"],
       github: "https://github.com/ojasvagr123/ml-lab",
       demo: "https://ml-lab-6a5rreufnwbsmkgsjjsnas.streamlit.app/",
-      image: "/projects/project4.png"
+      image: "/projects/project4.png",
+      theme: "rose",
     },
   ],
-
-  achievements: [
+  experience: [
     {
-      title: "AIR 4637 GATE 2026",
-      subtitle: "Result",
-      proof: "/proofs/proof1.pdf"
+      role: "Software Engineering Intern",
+      company: "Mastercard",
+      location: "Pune",
+      period: "May 2026 - Jul 2026",
+      summary:
+        "Built configuration-first financial messaging infrastructure, a Java cryptographic automation platform using Bouncy Castle, and CI/CD-ready deployment workflows. Also created GitHub Copilot agents that delivered contextual codebase explanations through an MCP-based walkthrough agent.",
+      tags: ["Java", "ISO 8583", "Bouncy Castle", "Jenkins", "MCP"],
     },
     {
-      title: "CIIS National CyberShield Hackathon 2025 ",
-      subtitle: "3rd Runner Up",
-      proof: "/proofs/proof2.pdf"
+      role: "Full-stack Developer Intern",
+      company: "Vichranshala Lab, IIT Ropar",
+      location: "Remote",
+      period: "Jan 2026 - Present",
+      summary:
+        "Contributing to deployed MERN-stack products and building full-stack features across MongoDB, Express, React and Node.js.",
+      tags: ["MongoDB", "Express", "React", "Node.js"],
     },
     {
-      title: "Indore Tech Hackathon 2025 ",
-      subtitle: "1st Runner Up",
-      proof: "/proofs/proof3.pdf"
+      role: "Research Intern",
+      company: "Maulana Azad National Institute of Technology",
+      location: "Bhopal",
+      period: "Jun 2025",
+      summary:
+        "Researched cognitive stress detection from EEG and skin-conductance signals using the UNIVERSE dataset, training explainable deep-learning models that achieved 84.5% classification accuracy.",
+      tags: ["Python", "Deep learning", "XAI", "EEG", "EDA"],
     },
     {
-    title: "LeetCode Milestone",
-    subtitle: "Knight Badge | 600+ Problems Solved",
-    proof: "https://leetcode.com/ojasv_agr123/"
+      role: "Full-stack Developer Intern",
+      company: "Ministry of Technical Education, Government of Madhya Pradesh",
+      location: "Bhopal",
+      period: "Apr 2025 - May 2025",
+      summary:
+        "Developed a transactional backend with PostgreSQL, Prisma and TypeScript, including real-time WebSocket integrations.",
+      tags: ["TypeScript", "PostgreSQL", "Prisma", "WebSockets"],
     },
-  ]
-};
+  ],
+  leadership: [
+    {
+      role: "Central Placement Coordinator",
+      organization: "Training & Placement Cell, SGITS",
+      period: "Jul 2024 - Present",
+      detail:
+        "Leading a 50+ member team coordinating recruiters, campus drives, pre-placement talks and interviews.",
+    },
+    {
+      role: "Technical Lead",
+      organization: "Prashikshan AI, SAARTHI",
+      period: "Oct 2025 - Present",
+      detail:
+        "Leading an AI interview and career-preparation platform built with Gemini API, parallel prompting and response validation.",
+    },
+  ],
+  skills: [
+    { title: "Languages", items: ["Java", "C", "C++", "JavaScript", "TypeScript", "Python"] },
+    {
+      title: "Product engineering",
+      items: ["React", "Next.js", "Node.js", "Spring Boot", "FastAPI", "REST APIs"],
+    },
+    {
+      title: "Data & infrastructure",
+      items: ["PostgreSQL", "MongoDB", "AWS EC2", "Jenkins", "Git", "Linux"],
+    },
+    {
+      title: "AI & data science",
+      items: ["Pandas", "NumPy", "Matplotlib", "XAI", "Gemini API", "scikit-learn"],
+    },
+  ],
+  education: {
+    degree: "B.Tech in Information Technology",
+    institution: "Shri G.S. Institute of Technology and Science, Indore",
+    period: "2023 - 2027",
+    score: "9.36 / 10 CGPA",
+    detail:
+      "Ranked among the top five students in the academic batch. Coursework includes data structures, operating systems, computer networks, databases, compiler design and machine learning.",
+  },
+  highlights: [
+    "AIR 4637 in GATE 2026",
+    "Knight on LeetCode with 600+ problems solved and a 1959 peak rating",
+    "Top 5 of 200+ teams at Indore Tech Hackathon 2025",
+    "Top 6 of 1,200+ teams at CIIS National CyberShield Hackathon 2025",
+    "1st place at Skillathon 2024 AI/ML competition",
+    "Five Elite NPTEL machine-learning certifications, consistently in the top 5%",
+    "District Merit Rank 1 in the Class XII board examination",
+  ],
+} as const;
