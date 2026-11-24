@@ -13,7 +13,7 @@ export const portfolio = {
     linkedin: "https://www.linkedin.com/in/ojasvagrawal/",
     leetcode: "https://leetcode.com/ojasv_agr123/",
     resume: "/resume/Ojasv-Agrawal-Resume.pdf",
-    photo: "/profile/profile-photo.jpg",
+    photo: "/profile/Screenshot 2026-11-24 205357.png",
   },
   metrics: [
     { value: "9.36", label: "CGPA at SGITS" },
